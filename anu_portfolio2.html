@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Theme Simply Me</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+         body {
+         font: 20px Montserrat, sans-serif;
+         line-height: 1.8;
+         color: #f5f6f7;
+         }
+         p {font-size: 16px;}
+         .margin {margin-bottom: 45px;}
+         .bg-1 { 
+         background-color: #1abc9c; 
+         /*background-image: url("rays.jpg");*/
+         color: white;
+         font-size:30px;
+         }
+         .bg-2 { 
+         background-color: #474e5d; /* Dark Blue */
+         color: #ffffff;
+         }
+         .bg-3 { 
+         background-color: #ffffff; /* White */
+         color: #555555;
+         }
+         .bg-4 { 
+         background-color: #2f2f2f; /* Black Gray */
+         color: #fff;
+         }
+         .container-fluid {
+         padding-top: 70px;
+         padding-bottom: 70px;
+         }
+         .navbar {
+         padding-top: 15px;
+         padding-bottom: 15px;
+         border: 0;
+         border-radius: 0;
+         margin-bottom: 0;
+         font-size: 12px;
+         letter-spacing: 5px;
+         }
+         .navbar-nav  li a:hover {
+         color: #1abc9c !important;
+         color:blue
+         }
+         .navbar-brand-c1 {
+         letter-spacing: 1px;
+         }
+         .first_container_text {
+         font-size: 20px
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand navbar-brand-c1" href="#">Anuradha Sengalvarayan</a>
+            </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#works">WORKS</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- First Container -->
+      <div class="container-fluid bg-1">
+         <div class="col-sm-3 col-md-4 col-lg-4">
+            <br>
+            <img src="anu_capture.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Picture" width="350" height="350">
+         </div>
+         <div class="col-sm-9 col-md-8 col-lg-8 container">
+            <br>
+            <h1> Summary </h1>
+            <p class="jumbotron" style="color:black">Aspiring web developer with keen interest in building fun and functional web sites. Have previour experience in databases, datawarehouse and ETL Tools. Currently studying HTML, CSS and javascripts</p>
+         </div>
+      </div>
+      <!-- Second Container -->
+      <div class="container-fluid bg-2" id="works">
+         <h1 > Sample work </h1>
+         <br>
+         <a href="https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage">MY Free code camp progress</a><br>
+         <a href="https://github.com/sangkeerthana70/Tribute"> My First Webpage Design</a>
+		<br>
+		 <div class="row">
+			<div class="col-sm-4"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:75%" alt="Image"></div>
+			<div class="col-sm-4"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:75%" alt="Image"></div>
+			<div class="col-sm-4"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:75%" alt="Image"></div>
+		 </div>
+      </div>
+      <!-- Third Container (Grid) -->
+      <div class="container-fluid bg-3 " id="contact">
+         <h3>CONTACT</h3>
+         <br>
+         <p>7 Christina Dr, Wrentham, MA 02093</p>
+         <p>Phone: 617-750-3763</p>
+         <p>Email: s_anuradha78@yahoo.com</p>
+         <a href="https://www.facebook.com/anuradha.sengalvarayan" class="btn btn-info" role="button">Facebook</a>
+         <a href="https://www.linkedin.com/feed/?trk=" class="btn btn-info" role="button">Linkedin</a>
+      </div>
+	  
+	  
+      <!-- Footer -->
+      <footer class="container-fluid bg-4 text-center">
+         <p>Created with Bootstrap</p>
+      </footer>
+   </body>
+</html>
